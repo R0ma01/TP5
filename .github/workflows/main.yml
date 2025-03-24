@@ -29,4 +29,4 @@ jobs:
 
       - name: Run Locust Load Test
         run: |
-          locust -f locustfile.py --headless -u 1000 -r 10 --run-time 2m --host http://localhost:5000/
+          locust -f locustfile.py --headless -u 10000 -r 100 --run-time 2m --host http://localhost:5000/
